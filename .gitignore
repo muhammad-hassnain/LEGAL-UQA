@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+
+# Local generated output
+/output/

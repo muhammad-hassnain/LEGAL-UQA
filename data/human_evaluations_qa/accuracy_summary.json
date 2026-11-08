@@ -1,0 +1,79 @@
+{
+  "calculated_at_utc": "2026-10-12T06:10:56.736077+00:00",
+  "score_column": "Score",
+  "ignored_columns": [
+    "Strict"
+  ],
+  "formula": "100 * sum(Score) / number of scored examples; Score may be 0, 0.5, or 1",
+  "partial_credit_note": "Accuracy averages the supplied Score labels. A 0.5 label contributes half a point; full_credit_accuracy_percent separately counts only Score=1.",
+  "models": [
+    {
+      "model": "gpt-5.4",
+      "source_file": "data/human_evaluations_qa/gpt-5.4-responses.csv",
+      "source_sha256": "fdca33e3ff59303eabe319814bd6ba61ead38d0f8cc8d6c50e2d434c4092cdf7",
+      "scored_examples": 124,
+      "correct": 123,
+      "partially_correct": 0,
+      "incorrect": 1,
+      "score_sum": 123.0,
+      "accuracy_percent": 99.19354838709677,
+      "full_credit_accuracy_percent": 99.19354838709677,
+      "wholly_empty_rows_excluded": 0,
+      "annotation_ids_and_text_match_saved_predictions": true
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "source_file": "data/human_evaluations_qa/deepseek-v4-pro-responses.csv",
+      "source_sha256": "c49aafb4dc1348d09b1821f2b042f4dcc4ba182d90c13b15b865d3120f33eb06",
+      "scored_examples": 124,
+      "correct": 123,
+      "partially_correct": 0,
+      "incorrect": 1,
+      "score_sum": 123.0,
+      "accuracy_percent": 99.19354838709677,
+      "full_credit_accuracy_percent": 99.19354838709677,
+      "wholly_empty_rows_excluded": 1,
+      "annotation_ids_and_text_match_saved_predictions": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "source_file": "data/human_evaluations_qa/claude-sonnet-5-responses.csv",
+      "source_sha256": "cb51ed576fc539ca181e3c1d5b332f385d79a4d71ccc8a0562bd72604c1235f8",
+      "scored_examples": 124,
+      "correct": 123,
+      "partially_correct": 0,
+      "incorrect": 1,
+      "score_sum": 123.0,
+      "accuracy_percent": 99.19354838709677,
+      "full_credit_accuracy_percent": 99.19354838709677,
+      "wholly_empty_rows_excluded": 0,
+      "annotation_ids_and_text_match_saved_predictions": true
+    },
+    {
+      "model": "gemma-4-e4b",
+      "source_file": "data/human_evaluations_qa/gemma-4-e4b-responses.csv",
+      "source_sha256": "97edb6c0954782c5c4a1c1719b0384119976025d0e839aacd8ca8bbbc29d48a7",
+      "scored_examples": 124,
+      "correct": 119,
+      "partially_correct": 0,
+      "incorrect": 5,
+      "score_sum": 119.0,
+      "accuracy_percent": 95.96774193548387,
+      "full_credit_accuracy_percent": 95.96774193548387,
+      "wholly_empty_rows_excluded": 1,
+      "annotation_ids_and_text_match_saved_predictions": true
+    }
+  ],
+  "unavailable": [],
+  "annotation_protocol": {
+    "source": "author confirmation in revision session",
+    "evaluators": 3,
+    "primary_evaluators": 2,
+    "disagreement_resolution": "third evaluator",
+    "qualifications": "Urdu proficient; prior manuscript reports limited legal expertise",
+    "rubric": "Semantically equivalent to the reference with no missing detail. Correct but partial answers receive 0.",
+    "blinding": "not specified",
+    "individual_ratings": "not retained; inter-annotator agreement cannot be computed",
+    "Strict_rubric": "not separately specified"
+  }
+}

@@ -1,0 +1,27 @@
+# Optional / heavy dependencies. Needed only for the non-inference notebooks:
+# PDF parsing, Urdu OCR/reconstruction, embeddings, and the local mt5 model.
+# Install with:  pip install -r requirements-extra.txt
+
+torch>=2.2
+transformers>=4.44
+huggingface_hub>=0.24
+ultralytics>=8.2         # layout detection (page-wise chunking)
+byaldi>=0.0.5            # multimodal RAG retriever
+pdf2image>=1.17
+PyPDF2>=3.0
+reportlab>=4.0          # Urdu PDF reconstruction
+python-docx>=1.1
+shapely>=2.0
+matplotlib>=3.8
+wordcloud>=1.9
+arabic-reshaper>=3.0
+python-bidi>=0.4
+
+# --- Serving Gemma-3-4B locally (for gemma_qa / gemma_translate) ---
+# vLLM needs a Linux host with a CUDA GPU; it does not install on macOS.
+# Start the server in a separate terminal:  vllm serve google/gemma-3-4b-it --port 8000
+# vllm>=0.6
+
+# --- JEV (TypeSafe System One) judge for scripts/jev/* and jev_evaluation.ipynb ---
+# Needs TYPESAFE_API_KEY in .env; Python >= 3.10.
+typesafe-sdk>=0.1

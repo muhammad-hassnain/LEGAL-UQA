@@ -1,0 +1,62 @@
+{
+  "corrected_at_utc": "2026-10-10T04:02:13.086498+00:00",
+  "authorization": "Author confirmed binary completeness rubric: semantic equivalence with no detail missing; correct but partial answers are wrong.",
+  "changes": [
+    {
+      "file": "data/human_evaluations_qa/gemma-4-e4b-responses.csv",
+      "id": 14,
+      "before": {
+        "Score": "0.5",
+        "comments": "incomplete"
+      },
+      "after": {
+        "Score": 0,
+        "comments": "Incomplete: omits the High Court and Assembly Secretariat officers and servants. Corrected from half credit to zero under author-confirmed binary completeness rubric."
+      },
+      "source_sha256_before": "e9cdf5efe19cbea9b78cf222eef63c8b3413f0ff7ddd7eb3cd3387473d08b394",
+      "source_sha256_after": "bf5789a66a9fd9437a49b05bd16982e57c33b2c4ebbd8cfd70dc44ae84ce2acd"
+    },
+    {
+      "file": "data/human_evaluations_qa/gemma-4-e4b-responses.csv",
+      "id": 99,
+      "before": {
+        "Score": "0.5",
+        "comments": "incomplete"
+      },
+      "after": {
+        "Score": 0,
+        "comments": "Incomplete: omits the limit of not more than two Ulema and appointment by the President stated in the reference. Corrected from half credit to zero under author-confirmed binary completeness rubric."
+      },
+      "source_sha256_before": "bf5789a66a9fd9437a49b05bd16982e57c33b2c4ebbd8cfd70dc44ae84ce2acd",
+      "source_sha256_after": "97edb6c0954782c5c4a1c1719b0384119976025d0e839aacd8ca8bbbc29d48a7"
+    },
+    {
+      "file": "data/automated_evaluations_qa/jev/gemma-4-e4b_jev_verdicts.csv",
+      "id": 14,
+      "before": {
+        "human_score": "0.5",
+        "human_verdict": "1"
+      },
+      "after": {
+        "human_score": 0,
+        "human_verdict": 0
+      },
+      "source_sha256_before": "0368239ee0eff073ad88e9fae11636949b6abc22f8c29011f68d5268e6abc8b8",
+      "source_sha256_after": "4b93ffe5853c5673ced7562c96f16e958f43a296a72da94322756563e2ff298f"
+    },
+    {
+      "file": "data/automated_evaluations_qa/jev/gemma-4-e4b_jev_verdicts.csv",
+      "id": 99,
+      "before": {
+        "human_score": "0.5",
+        "human_verdict": "1"
+      },
+      "after": {
+        "human_score": 0,
+        "human_verdict": 0
+      },
+      "source_sha256_before": "4b93ffe5853c5673ced7562c96f16e958f43a296a72da94322756563e2ff298f",
+      "source_sha256_after": "c48d2da37589976d27d1dc602b1c27fc4447e194417c630b936b221b958dc7f8"
+    }
+  ]
+}

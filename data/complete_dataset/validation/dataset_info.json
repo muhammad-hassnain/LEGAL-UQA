@@ -1,0 +1,40 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "question_eng": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_urdu": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "context_eng": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "context_urdu": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_eng": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_urdu": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "context_index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "__index_level_0__": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

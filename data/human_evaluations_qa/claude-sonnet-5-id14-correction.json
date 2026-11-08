@@ -1,0 +1,39 @@
+{
+  "corrected_at_utc": "2026-10-10T03:18:24.936734+00:00",
+  "authorization": "Author requested Claude validation ID 14 be marked zero for the incomplete answer.",
+  "reason": "Omits the officers and servants of the High Court and the Secretariat of the Provincial Assembly listed in the reference; aligns with GPT and DeepSeek labels for the same omission.",
+  "changes": [
+    {
+      "file": "data/human_evaluations_qa/claude-sonnet-5-responses.csv",
+      "id": 14,
+      "before": {
+        "Score": "1",
+        "Strict": "1",
+        "Comments": ""
+      },
+      "after": {
+        "Score": 0,
+        "Strict": 0,
+        "Comments": "Incomplete: omits the officers and servants of the High Court and the Secretariat of the Provincial Assembly. Score and Strict corrected from 1 to 0 at author request for consistency with GPT and DeepSeek (validation ID 14)."
+      },
+      "source_sha256_before": "ddf757c58edb014215762cf0bcdbb31b437ef1416c64d23b4795239f7aef06b2",
+      "source_sha256_after": "cb51ed576fc539ca181e3c1d5b332f385d79a4d71ccc8a0562bd72604c1235f8"
+    },
+    {
+      "file": "data/automated_evaluations_qa/jev/claude-sonnet-5_jev_verdicts.csv",
+      "id": 14,
+      "before": {
+        "human_score": "1",
+        "Strict": "1.0",
+        "human_verdict": "1"
+      },
+      "after": {
+        "human_score": 0,
+        "Strict": 0,
+        "human_verdict": 0
+      },
+      "source_sha256_before": "52b77f2b90e4e281517cb7695da1da1a1d7c061812c7a358f9600e0118fb0ab8",
+      "source_sha256_after": "c97094b63c1ff2a5bce976c761e2d773302b1076e1f8632fb3235a62b8f6e458"
+    }
+  ]
+}

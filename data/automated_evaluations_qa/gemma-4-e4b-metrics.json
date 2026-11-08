@@ -1,0 +1,85 @@
+{
+  "model": "gemma-4-e4b",
+  "evaluated_at_utc": "2026-09-21T05:56:33.611871+00:00",
+  "num_examples": 124,
+  "input_file": "data/model_qa_responses/gemma-4-e4b-responses.csv",
+  "input_sha256": "3ef536dec30d6eaf2dd6fed22e5fc6169c420bea34681f90c7f7182e90251ec8",
+  "prediction_column": "prediction_text_gemma_4_e4b",
+  "reference_column": "answers",
+  "model_versions_recorded_in_csv": [
+    "google/gemma-4-E4B-it"
+  ],
+  "metrics": {
+    "exact_match": 8.870967741935484,
+    "f1": 61.405719581844494,
+    "meteor": 0.5915645899705436,
+    "sacrebleu": 45.89827795332134
+  },
+  "metric_scales": {
+    "exact_match": "0-100",
+    "f1": "0-100",
+    "meteor": "0-1",
+    "sacrebleu": "0-100"
+  },
+  "raw_metric_results": {
+    "squad": {
+      "exact_match": 8.870967741935484,
+      "f1": 61.405719581844494
+    },
+    "meteor": {
+      "meteor": 0.5915645899705436
+    },
+    "sacrebleu": {
+      "score": 45.89827795332134,
+      "counts": [
+        2309,
+        1783,
+        1464,
+        1226
+      ],
+      "totals": [
+        3779,
+        3655,
+        3532,
+        3413
+      ],
+      "precisions": [
+        61.10082032283673,
+        48.78248974008208,
+        41.44960362400906,
+        35.92147670670964
+      ],
+      "bp": 1.0,
+      "sys_len": 3779,
+      "ref_len": 3601
+    }
+  },
+  "configuration": "Same cached Hugging Face evaluate implementations and default compute arguments as qa_evaluations.ipynb; no additional normalization; one reference per prediction.",
+  "validation": {
+    "unique_ordered_ids_0_to_123": true,
+    "all_predictions_nonempty": true,
+    "questions_and_references_match_other_three_models": true,
+    "all_four_saved_metrics_reproduced_for_other_three_models": true
+  },
+  "metric_implementations": {
+    "squad": {
+      "module_hash": "b4e2dbca455821c7367faa26712f378254b69040ebaab90b64bdeb465e4a304d",
+      "source_sha256": "2e06ae36665d7c3cd145052279036a14fc8bf092e78b643e70d89b2b769f43a9"
+    },
+    "meteor": {
+      "module_hash": "e7ed321a1b44c34fa4679192809db2cee7e3bd4bba0fe8b76061d807706c2374",
+      "source_sha256": "561ce07a903d1a1d1ad68fa03c346633eb7d0cd2620a368d025229ce03093960"
+    },
+    "sacrebleu": {
+      "module_hash": "28676bf65b4f88b276df566e48e603732d0b4afd237603ebdf92acaacf5be99b",
+      "source_sha256": "70b1443ce903a7bc3b78af1d8b17872222585b65f7c7fd54d98482a5395e2790"
+    }
+  },
+  "package_versions": {
+    "evaluate": "0.4.6",
+    "datasets": "5.0.1",
+    "nltk": "3.10.3",
+    "sacrebleu": "2.6.0",
+    "numpy": "2.5.3"
+  }
+}
