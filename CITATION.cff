@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use LEGAL-UQA, please cite the paper below."
+title: "LEGAL-UQA"
+type: software
+authors:
+  - family-names: Faisal
+    given-names: Faizan
+  - family-names: Yousaf
+    given-names: Umair
+  - family-names: Hassnain
+    given-names: Muhammad
+  - family-names: Babar
+    given-names: Zeerak
+repository-code: "https://github.com/muhammad-hassnain/LEGAL-UQA"
+url: "https://muhammad-hassnain.github.io/projects/Legal-UQA/"
+license: MIT
+keywords:
+  - Urdu
+  - legal question answering
+  - low-resource languages
+  - benchmark
+  - constitution of Pakistan
+preferred-citation:
+  type: article
+  title: "LEGAL-UQA: Testing Constitutional Question-Answering Systems for Urdu Speakers with a Parallel English-Urdu Benchmark"
+  authors:
+    - family-names: Faisal
+      given-names: Faizan
+    - family-names: Yousaf
+      given-names: Umair
+    - family-names: Hassnain
+      given-names: Muhammad
+    - family-names: Babar
+      given-names: Zeerak
+  year: 2024
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2410.13013"
+  url: "https://arxiv.org/abs/2410.13013"

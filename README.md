@@ -50,3 +50,19 @@ The saved mT5 response CSV and annotated workbook contain different predictions 
 - `scripts/jev`: judge inference and agreement tools.
 
 See [the data statement](data/README.md) and [judge documentation](scripts/jev/README.md). Project code and author-contributed data use MIT. Third-party documents, models, and assets retain their own rights and licenses.
+
+## Citation
+
+If you use LEGAL-UQA, please cite the paper ([arXiv:2410.13013](https://arxiv.org/abs/2410.13013)). GitHub's "Cite this repository" button gives the same reference from [`CITATION.cff`](CITATION.cff).
+
+```bibtex
+@misc{Faisal2024LegalUQA,
+  author        = {Faisal, Faizan and Yousaf, Umair and Hassnain, Muhammad and Babar, Zeerak},
+  title         = {{LEGAL-UQA}: Testing Constitutional Question-Answering Systems for Urdu Speakers with a Parallel English--Urdu Benchmark},
+  year          = {2024},
+  eprint        = {2410.13013},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2410.13013}
+}
+```
